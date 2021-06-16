@@ -7,4 +7,5 @@ group :development, :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "sinatra"
+  gem "launchy"
 end

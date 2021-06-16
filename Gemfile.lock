@@ -13,6 +13,8 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     diff-lcs (1.4.4)
+    launchy (2.5.0)
+      addressable (~> 2.7)
     mini_mime (1.1.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -58,6 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  launchy
   rspec
   selenium-webdriver
   sinatra
