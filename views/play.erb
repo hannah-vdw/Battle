@@ -1,13 +1,15 @@
-<h1> <%= @player1.name %> vs. <%= @player2.name %> </h1>
+<h1> <%= @game.player1.name %> vs. <%= @game.player2.name %> </h1>
 
 <div class="hp">
-  <h2> <%= @player1.name %> HP: <%= @player1.hit_points %> </h2>
-  <h2> <%= @player2.name %> HP: <%= @player2.hit_points %> </h2>
+  <h2> <%= @game.player1.name %> HP: <%= @game.player1.hit_points %> </h2>
+  <h2> <%= @game.player2.name %> HP: <%= @game.player2.hit_points %> </h2>
 </div>
 
+<div class="attack">
 
-<div>
+  <h2> <%= @game.current_turn.name %>'s turn </h2>
+  
   <form action="/attack">
-  <button name="player1_attack">Player 1 Attack</button>
+  <button name="Attack">Attack</button>
   </form>
 </div>
